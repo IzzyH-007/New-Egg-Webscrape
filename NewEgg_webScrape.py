@@ -1,3 +1,10 @@
+## Author: Isachi (Izzy) Halphen
+## Created: 25th Aug 2020
+## Modified: 
+## Purpose: to webscrape newegg.com for graphic cards
+## Comments: tried running it from cmd line but the prodcts.csv wouldn't show up
+##           
+
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
 
